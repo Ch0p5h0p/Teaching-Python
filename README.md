@@ -3,8 +3,8 @@
 A series of files for introducing people to Python
 
 ## Series
-0. Python: How to set up python
-1. Basics
+0. Setting up Python (o-python.py)
+1. Basics (1-basics.py)
    - Defining variables
    - Variable types (int, str, etc)
    - Recasting variables
@@ -19,17 +19,17 @@ A series of files for introducing people to Python
    - Indexing dictionaries
    - Single- and multi-line comments
    - Input and output, such as print() and input()
-2. Libraries
+2. Libraries (2-libraries.py)
    - Imports
    - Library installation
    - Library data access
-4. Control structures
+4. Control structures (3-control-structures.py)
    - If/elif/else
    - Match/case
-5. Loops
+5. Loops (4-loops.py)
    - For
    - While
-6. Classes
+6. Classes (5-classes.py)
    - Definition
    - Constructors & destructors
    - Class methods
