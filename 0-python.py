@@ -29,6 +29,10 @@ Python files always end in the extension ".py". To execute them, run either "pyt
 
 To enter a REPL (basically a terminal/console), just type "python" or "python3"
 
+Also: get an IDE. These are my top recommendations:
+1. Visual Studio Code (not Visual Studio)
+2. VSCodium (Visual Studio Code without the Microsoft telemety and whatnot)
+3. JetBrains PyCharm
 
 That's all for set up!
 '''
