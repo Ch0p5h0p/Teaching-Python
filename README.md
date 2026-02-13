@@ -23,6 +23,7 @@ A series of files for introducing people to Python
    - Imports
    - Library installation
    - Library data access
+   - Library aliasing
 4. Control structures ([3-control-structures.py](https://github.com/Ch0p5h0p/Teaching-Python/blob/main/3-control-structures.py))
    - If/elif/else
    - Match/case
