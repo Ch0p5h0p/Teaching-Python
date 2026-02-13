@@ -15,11 +15,12 @@ d = True #boolean (bool)
 # You can reference a variable by simply typing its name
 '''
 The following operations between variables exist:
-+ (add), - (subtract), * (multiply), / (divide), ** (power or exponentiation), and // (floor-divide)
++ (add), - (subtract), * (multiply), / (divide), % (modulo), ** (power or exponentiation), and // (floor-divide)
 Some operations that may need definitions are ** and //.
 
 ** is simply powers. For example, 3**2 is the same as three squared, or 9.
 // is for division, rounded down to the nearest integer (never rounded up)
+% is for modulo, which is the remainder after dividing something.
 
 There are a few weird rules that sorta make sense for all operations:
 1. If an operation is between any number type and includes a float type, the result will always be a float.
@@ -128,7 +129,6 @@ myDictionary["some_boolean"] # returns True
 myDictionary[0] # returns "integer"
 myDictionary[3.2] # returns "float"
 
-
 # Lists have a few different functions related to them
 len(myList) # returns the length of myList. Always one greater than the final index of the list
 myList.insert(2, "hello") # inserts "hello" into myList at the index 2 (the third slot), pushing all following items up an index
@@ -158,6 +158,14 @@ myDictionary.values() # returns all the values in a dictionary as a dict_values 
 keys = ["greeting", "departure"]
 values = ["hello", "goodbye"]
 newDict = zip(keys, values) # creates a new dictionary and assigns newDict to it.
+
+'''
+There are certain variables which are called "iterable". These are basically any variable that has indices, including:
+- Lists
+- Tuples
+- Dictionaries
+- Strings (yes, you can do myString[0] to get the first letter in myString)
+'''
 
 '''
 Before we continue, a note on function parameters:

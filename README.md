@@ -25,6 +25,7 @@ A series of files for introducing people to Python
    - Library data access
    - Library aliasing
 4. Control structures ([3-control-structures.py](https://github.com/Ch0p5h0p/Teaching-Python/blob/main/3-control-structures.py))
+   - Comparison operators
    - If/elif/else
    - Match/case
 5. Loops ([4-loops.py](https://github.com/Ch0p5h0p/Teaching-Python/blob/main/4-loops.py))
