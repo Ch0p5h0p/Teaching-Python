@@ -7,16 +7,16 @@ A series of files for introducing people to Python
 1. Basics ([1-basics.py](https://github.com/Ch0p5h0p/Teaching-Python/blob/main/1-basics.py))
    - Defining variables
    - Variable types (int, str, etc)
+   - Variable operations and functions
    - Recasting variables
    - Defining functions
    - Indentation rules
    - Calling functions
    - Return statements
-   - Defining lists
-   - Indexing lists
+   - Defining lists, tuples, and dictionaries
+   - Indexing lists, tuples, and dictionaries
    - List functions (len, push, pop, insert, etc)
-   - Defining dictionaries
-   - Indexing dictionaries
+   - Dictionary functions
    - Single- and multi-line comments
    - Input and output, such as print() and input()
 2. Libraries ([2-libraries.py](https://github.com/Ch0p5h0p/Teaching-Python/blob/main/2-libraries.py))
@@ -42,4 +42,6 @@ A series of files for introducing people to Python
    - List comprehensions
    - Dictionary comprehensions
    - Explicit type annotations
+   - Bitwise operations
+   - Lambdas
    - Basic design patterns
