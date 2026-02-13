@@ -1,22 +1,4 @@
 '''
-Basics (1-basics.py)
-- Defining variables
-- Variable types (int, str, etc)
-- Variable operations and functions
-- Recasting variables
-- Defining functions
-- Indentation rules
-- Calling functions
-- Return statements
-- Defining lists, tuples, and dictionaries
-- Indexing lists, tuples, and dictionaries
-- List functions (len, push, pop, insert, etc)
-- Dictionary fuctions
-- Single- and multi-line comments
-- Input and output, such as print() and input()
-'''
-
-'''
 PYTHON BASICS
 This will cover all the basics of Python programming
 '''
