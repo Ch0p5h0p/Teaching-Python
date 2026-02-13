@@ -46,4 +46,5 @@ A series of files for introducing people to Python
    - Explicit type annotations
    - Bitwise operations
    - Lambdas
+   - Recursion
    - Basic design patterns
