@@ -40,11 +40,15 @@ A series of files for introducing people to Python
    - Instantiation
    - Dataclasses
 7. Advanced Stuff ([6-advanced.py](https://github.com/Ch0p5h0p/Teaching-Python/blob/main/6-advanced.py))
-   - OOP fundamentals (encapsulation, abstraction, polymorphism)
+   - Format strings
+   - Inline if statements
    - List comprehensions
    - Dictionary comprehensions
    - Explicit type annotations
+   - Error handling
+   - \*args, \**kwargs, and defaulted arguments
    - Bitwise operations
    - Lambdas
    - Recursion
-   - Basic design patterns
+   - OOP fundamentals (encapsulation, abstraction, polymorphism) [for the future]
+   - Basic design patterns [for the future]
