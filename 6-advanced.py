@@ -129,15 +129,15 @@ print_lots("Hello", "world", "I'm", "printing", "stuff")
 # It takes in as many arguments as you want to pass in, then prints them.
 
 def print_person(**kwargs):
-    print(f"I am {kwargs["name"]}, and I'm {kwargs["age"]} years old")
+    print(f"I am {kwargs['name']}, and I'm {kwargs['age']} years old")
 
 print_person(name="bob", age=30)
 
 '''
-Next is bitwise operations. Here's a refresher for the bitwise operators, which are the same as the symbolic logic
+Next is bitwise operations. Here's a refresher for the bitwise operators, which are similar to the symbolic logic
 operators, as well as some more:
     &  : and
-    !  : not
+    ~  : not
     |  : or
     ^  : xor
     >> : shift right
@@ -172,7 +172,7 @@ programming function behavior (unless you use inline if statements).
 
 # Assigning a lambda to a variable and calling it
 square = lambda x:x**2
-square(4) # returns 8
+square(4) # returns 16
 
 # Using a lambda on a map
 numbers = [i for i in range(10)]
@@ -187,5 +187,5 @@ Recursion is when a function calls itself. Simple as that. Here's an example:
 # Recursive countdown
 def countdown(start):
     print(start)
-    countdown(start-1)
+    countdown(start-1) if start > 0 else None
 
