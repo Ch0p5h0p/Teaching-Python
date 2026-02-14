@@ -157,7 +157,7 @@ myDictionary.values() # returns all the values in a dictionary as a dict_values 
 
 keys = ["greeting", "departure"]
 values = ["hello", "goodbye"]
-newDict = zip(keys, values) # creates a new dictionary and assigns newDict to it.
+newDict = dict(zip(keys, values)) # creates a new dictionary and assigns newDict to it.
 
 '''
 There are certain variables which are called "iterable". These are basically any variable that has indices, including:
